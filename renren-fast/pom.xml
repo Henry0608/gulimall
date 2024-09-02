@@ -48,7 +48,7 @@
 		<pack-name>${project.artifactId}-${project.version}.jar</pack-name>
 		<remote-addr>192.168.1.10:22</remote-addr>
 		<remote-username>root</remote-username>
-		<remote-passwd>MHr520108*</remote-passwd>
+		<remote-passwd>123456</remote-passwd>
 	</properties>
 
 	<dependencies>
