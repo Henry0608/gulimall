@@ -1,11 +1,6 @@
 server:
   port: 7000
 spring:
-  datasource:
-    username: root
-    password: 123456
-    url: jdbc:mysql://47.121.199.203:3306/gulimall_sms
-    driver-class-name: com.mysql.cj.jdbc.Driver
   profiles:
     active: dev
   application:
@@ -17,6 +12,11 @@ spring:
       config:
         server-addr: 127.0.0.1:8848
         file-extension: yaml
+  datasource:
+    username: root
+    password: MHr520108*
+    url: jdbc:mysql://47.121.199.203:3306/gulimall_sms
+    driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis-plus:
   mapper-locations: classpath:/mapper/**/*.xml
   global-config:
