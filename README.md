@@ -6,4 +6,6 @@
     gulimall-gateway 网关模块
     gulimall-product 商品模块
     gulimall-third-party 阿里云上传模块
+    gulimall-member 会员系统
+    gulimall-coupon 优惠券积分模块
 4、启动前台 npm run dev

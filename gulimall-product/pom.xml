@@ -35,6 +35,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <!--解决：Did you forget to include spring-cloud-starter-loadbalancer?-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-loadbalancer</artifactId>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
